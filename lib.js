@@ -73,6 +73,7 @@ async function scrapeBreaches(
   outdir = "./shots",
   limit
 ) {
+  console.info(`server=${server}`);
   await timeFn("Downloaded screenshots", async () =>
     downloadImages(server, outdir, limit)
   );

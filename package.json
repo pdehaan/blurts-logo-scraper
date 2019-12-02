@@ -1,5 +1,6 @@
 {
   "name": "blurts-logo-scraper",
+  "description": "Scrape breach details logos using Puppeteer",
   "version": "1.0.0",
   "author": "Peter deHaan",
   "bugs": {
@@ -27,6 +28,9 @@
     "url": "git+https://github.com/pdehaan/blurts-logo-scraper.git"
   },
   "scripts": {
-    "test": "node cli"
+    "scrape": "node cli",
+    "scrape:dev": "npm run scrape -- --server=https://fx-breach-alerts.herokuapp.com/",
+    "scrape:prod": "npm run scrape -- --server=https://monitor.firefox.com/",
+    "test": "npm run scrape:dev -- --max-breaches=5"
   }
 }
