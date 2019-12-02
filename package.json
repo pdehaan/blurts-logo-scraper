@@ -1,0 +1,32 @@
+{
+  "name": "blurts-logo-scraper",
+  "version": "1.0.0",
+  "author": "Peter deHaan",
+  "bugs": {
+    "url": "https://github.com/pdehaan/blurts-logo-scraper/issues"
+  },
+  "dependencies": {
+    "cli-progress": "^3.4.0",
+    "convict": "^5.2.0",
+    "hibp-chain-api": "github:pdehaan/hibp-chain-api",
+    "imagemin": "^7.0.1",
+    "imagemin-pngquant": "^8.0.0",
+    "puppeteer": "^2.0.0"
+  },
+  "devDependencies": {},
+  "homepage": "https://github.com/pdehaan/blurts-logo-scraper#readme",
+  "keywords": [
+    "firefox-monitor",
+    "hibp",
+    "puppeteer"
+  ],
+  "license": "MPL-2.0",
+  "main": "lib.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pdehaan/blurts-logo-scraper.git"
+  },
+  "scripts": {
+    "test": "node cli"
+  }
+}
