@@ -8,7 +8,7 @@
   },
   "dependencies": {
     "cli-progress": "^3.4.0",
-    "convict": "^5.2.0",
+    "convict": "^6.2.3",
     "hibp-chain-api": "github:pdehaan/hibp-chain-api",
     "imagemin": "^7.0.1",
     "imagemin-pngquant": "^8.0.0",
